@@ -1,0 +1,38 @@
+.eventModal {
+  flex-direction: column;
+  display: flex;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+
+  &__startTime {
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #edeae9;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  select {
+    width: 260px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 110px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #edeae9;
+    border-radius: 5px;
+    background-color: #edf1fd;
+
+    &:hover {
+      background-color: #bacbfb;
+    }
+  }
+}

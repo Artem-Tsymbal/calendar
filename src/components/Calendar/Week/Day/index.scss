@@ -1,0 +1,14 @@
+.day {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbf8f7;
+    border: 1px solid #edeae9;
+    border-bottom-width: 5px;
+  }
+}
